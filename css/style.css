@@ -1,0 +1,432 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #131212;
+}
+
+.d-flex {
+    display: flex;
+    
+}
+.d-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 60px;
+}
+
+.margin-r {
+    margin-right: 40px;
+}
+
+.just-c-c {
+    justify-content: center;
+}
+
+.align-c {
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.list--hover:hover{
+    border-bottom: 3px dotted #EBEBEB;   
+}
+
+.main-container{
+    max-width: 1440px;
+    margin:  auto;
+}
+
+
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.mainmenu {
+    height: 200px;
+    justify-content: space-between;
+}
+
+.mainmenu__hamburger1{
+    display: none;
+}
+
+.mainmenu-mobile {
+    display: none;
+}
+
+
+.hamburger-inner,
+.hamburger-inner::before,
+.hamburger-inner::after {
+    background-color:  white;
+}
+
+.hamburger.is-active 
+.hamburger-inner, 
+.hamburger.is-active 
+.hamburger-inner::before,
+ .hamburger.is-active 
+ .hamburger-inner::after {
+    background-color: white;
+ }
+.logo {
+    width: 180px;
+    height: 50px;
+}
+
+.tabs {
+    height: 50px;
+}
+
+.tabs ul {
+    padding: 0;
+}
+
+.tabs__list {
+    list-style: none;
+}
+
+.tabs__list a {
+    color: #1C62CD;
+    font-family: 'PT Serif';
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.tabs__list a::after {
+    content: ">";
+    color: #D9D9D9;
+    margin: 0 15px;
+}
+
+.tabs__list p {
+    color: white;
+    font-family: 'Roboto Slab';
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.mainmenu-list-left a {
+    color: #fff;
+    margin-right: 40px;
+    font-family: 'Roboto Slab';
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.text-line {
+    border-bottom: 3px solid white;
+}
+
+.mainmenu-right {
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.mainmenu-right__item p {
+    color: #fff;
+    font-family: 'Roboto Slab';
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.marker {
+    margin-right: 25px;
+}
+
+.banner-tagline {
+    background-image: url('../images/banner.png');
+    width: 1440px;
+    height: 390px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+h1 {
+    color: white;
+    font-family: 'PT Serif';
+    font-weight: 700;
+    font-size: 64px;
+    position: absolute;
+    top: 15%;
+}
+
+.search {
+    height: 200px;
+    align-items: center;
+}
+
+h2 {
+    color: white;
+    font-family: 'Roboto Slab';
+    font-weight: 500;
+    font-size: 20px;
+}
+
+label {
+    position: relative;
+}
+
+.search-form {
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.search-field {
+    width: 660px;
+    height: 55px;
+    border-radius: 5px;
+    
+}
+
+.search-icon {
+    position: absolute;
+    right: 20px;
+    top: 11px;
+}
+
+.search-button {
+    width: 155px;
+    height: 55px;
+    background-color: #51578C;
+    cursor: pointer;
+}
+
+.search-button p {
+    color: #fff;
+    font-family: 'Roboto Slab';
+    font-weight: 400;
+}
+
+.guitar-block {
+    width: 700px;
+    height: 200px;
+    border: 1px solid black ;
+    border-radius: 3px ;
+    position: relative;
+}
+
+.guitar-block a {
+    width: 100%;
+    height: 100%;
+}
+
+.guitar-block img {
+    position: absolute;
+    right: 50px;
+    top: 20px;
+}
+
+.guitar-block--violet {
+    background-color: #51578C;
+}
+
+.guitar-block--white {
+    background-color:  #EBEBEB;
+}
+
+.guitar-block__classic-text {
+    color: white;
+    font-family: 'Roboto Slab';
+    font-weight: 500;
+    font-size: 36px;
+}
+
+.guitar-block__electro-text {
+    color: black;
+    font-family: 'Roboto Slab';
+    font-weight: 500;
+    font-size: 36px;
+}
+
+.guitar-block h3 {
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+.slider-guitar div {
+    width: 1440px;
+    height: 390px;
+}
+
+.offers {
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.offers-block {
+    width: 440px;
+    height: 130px;
+}
+
+.offers-block--grey {
+    background-color: #EBEBEB;
+}
+
+.offers-block--violet {
+    background-color: #51578C;
+}
+
+.offers-block__icon {
+    width: 60px;
+    height: 60px;
+}
+
+.offers-block p {
+    font-family: 'Roboto Slab';
+    font-weight: 400;
+    font-size: 15px;
+    width: 220px;
+    height: 100px;
+}
+
+.offers-block img {
+  padding: 55px 40px;  
+}
+
+.white-text {
+    color: #fff;
+}
+
+.photo-celebrities {
+    display: grid;
+    max-width: 1440px;
+    height: 800px;
+    margin: auto;
+   grid-template-columns: repeat(2, 1fr);
+   grid-template-rows: 1 fr  1fr;
+    grid-gap: 15px;
+    
+}
+
+.img{
+   width: 710px;
+   height: 390px; 
+   margin: 0;
+   padding: 0;
+}
+
+
+
+
+.footer {
+    background-color: #EBEBEB;
+    width: 1440px;
+    height: 120px;
+    margin: auto;
+}
+
+.footer__item {
+    margin-right: 80px;
+    font-family: 'Roboto Slab';
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.footer__item:last-child {
+    margin-right: 0px;
+}
+
+.messangers-icon a{
+    margin-right: 19px;
+}
+
+.messangers-icon a:last-child{
+    margin-right: 0px;
+}
+
+.slideshow-container{
+    width: 1440px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+.slider-photo{
+    width: 1440px;
+    height: 450px;
+    margin: auto;
+}
+
+.slider-buttons{
+    margin-top: 15px;
+    display: flex;
+   margin-left: 640px;
+    gap: 20px;
+    
+}
+
+.prev, .next {
+    cursor:pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 70px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+
+}
+
+.next{
+    right:0;
+    border-radius: 3px 0 0 3px;
+    
+}
+.prev:hover, .next:hover{
+    background-color: rgba(0,0,0,0.7);
+}
+
+.dot{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0.2px;
+    
+    background-color: #D9D9D9;
+    border-radius: 50%;
+    display: inline-block;
+    transition:  background-color 0.6 ease;
+}
+
+.active, dot:hover {
+    background-color:  #40467C ;
+}
+
+.fade{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade{
+    from{opacity: 4}
+    to {opacity: 1}
+}
+
+@keyframes fade{
+    from{opacity: 0;}
+    to {opacity: 1}
+}
+
+
+.search1{
+    display: none;
+}
