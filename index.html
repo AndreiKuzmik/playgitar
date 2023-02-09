@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlayGuitar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Roboto+Slab:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link href="styles/hamburgers.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/media.css">
+</head>
+<body>
+    <div class="main-container">    
+        <header class="header">
+                <nav class="mainmenu d-flex align-c">
+                    <a href="index.html"><img class="logo" src="images/newLogo.svg" alt="logo"></a>
+                    <div class="mainmenu-left d-flex">
+                        <ul class="mainmenu-list-left d-flex">
+                            <li><a class="list--hover" href="shops.html">Магазины</a></li>
+                            <li><a class="list--hover" href="delivery.html">Доставка и оплата</a></li>
+                            <li><a class="list--hover" href="catalog.html">Каталог</a></li>
+                        </ul> 
+                    </div>
+                    <div class="mainmenu-right d-flex">
+                        <div class="mainmenu-right__item d-flex margin-r">
+                            <img class="marker" src="images/marker.svg" alt="marker">
+                            <p>
+                                Ваш магазин: Москва, ул. Новая 4
+                                <br>
+                                т.  8 (495) 433-53-33</p>
+                            </div>
+                            <div class="mainmenu-right__item margin-r">
+                                <a href=""><img src="images/favorite.svg" alt="favorite"></a>
+                            </div>
+                            <div class="mainmenu-right__item margin-r">
+                                <a href=""><img src="images/basket.svg" alt="basket"></a>
+                            </div>
+                            <div class="mainmenu-right__item">
+                                <a href=""><img src="images/personal-area.svg" alt="personal-area"></a>
+                            </div>  
+                        </div>
+                        <button class="mainmenu__hamburger1 hamburger hamburger--slider" 
+                        type="button" 
+                        onclick="this.classList.toggle('is-active')">
+                            <span class="hamburger-box">
+                              <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                        <!--Меню мобилки-->
+                        <div class="mainmenu-mobile">
+                            <ul>
+                                <li><a href="shops.html">Магазины</a></li>
+                                <li><a href="delivery.html">Доставка и оплата</a></li>
+                                <li><a href="catalog.html">Каталог</a></li>
+                                <li><a href="">Избранное</a></li>
+                                <li><a href="">Корзина</a></li>
+                                <li><a href="">Профиль</a></li>
+                                </ul>
+                        </div>
+                        <!--Меню мобилки-->
+                    </div>
+                </nav>   
+        </header>
+        <section class="banner d-flex just-c-c">
+                <div class="banner-tagline">
+                    <h1>С музыкой по жизни</h1>
+                </div>
+        </section>
+        
+        <!--Стоит поправить поиск-->
+    <div class="reverse">  
+        <section class="search d-flex just-c-c">
+                <div>
+                <h2>Поиск по названию</h2>
+                <form class="search-form" action="">
+                    <label for="">
+                        <input class="search-field" type="search" placeholder="Введите" value=""> 
+                        <span><img class="search-icon" src="images/search.svg" alt=""></span>
+                    </label>
+                    <button class="search-button" type="submit"><p>ИСКАТЬ</p></button>
+                </form>
+                </div>
+        </section>
+        <!-- поиск для моб.версии-->
+        <section class="search1 d-flex just-c-c">
+            <div>
+            <h2>Поиск по названию</h2>
+            <form class="search-form" action="">
+                <label for="">
+                    <input class="search-field" type="search" placeholder="Введите" value=""> 
+                   
+                </label>
+                <div class="cont-button">
+                    <button class="search-button" type="submit">
+                    <img class="search-icon" src="images/search.svg" alt=""> </button>
+                    
+                </div>   
+            </form>
+            </div>
+    </section>
+        <!-- поиск для моб.версии-->
+
+        <!--Стоит поправить поиск-->
+
+        <section class="type-of-guitar d-flex just-c-c">
+                <div class="guitar-block guitar-block--violet margin-r d-flex"><a href="catalog-classic.html">
+                    <h3 class="guitar-block__classic-text">Классические гитары</h3>
+                    
+                    <img src="images/classic-guitar.png" alt="classic-guitar">
+                </a></div>
+                <div class="guitar-block guitar-block--white d-flex"><a href="catalog-electro.html">
+                    <h3 class="guitar-block__electro-text">Электрогитары</h3>
+                    <img src="images/elektro-transformed 2.png" alt="electro-guitar">
+                </a></div>
+        </section>
+    </div>      
+
+        <div class="slideshow-container"> -->
+
+            <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img  class="slider-photo" src="images/slider/Group 73.jpg">
+            <div class="text">Caption Text</div>
+            </div>
+            
+            <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img  class="slider-photo" src="images/slider/Group 75.jpg">
+            <div class="text">Caption Two</div>
+            </div>
+            
+            <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img  class="slider-photo" src="images/slider/Group 76.jpg">
+            <div class="text">Caption Three</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img  class="slider-photo" src="images/slider/Group 77.jpg">
+                <div class="text">Caption Three</div>
+            </div>
+
+            
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+            
+            <div class="slider-buttons">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+            <span class="dot" onclick="currentSlide(4)"></span>
+            </div> 
+            </div>
+            <br>
+            
+            
+
+
+        <section class="offers container">
+            <div class="d-grid">
+                <div class="offers-block offers-block--grey d-flex align-c">
+                        <img class="offers-block__icon" src="images/icon-book.svg" alt="">
+                    <p> 
+                        Не нужно искать
+                        минимальную цену,по вашему запросу мы сами
+                        найдем товар по лучшей цене!
+                    </p>
+                </div>
+                <div class="offers-block offers-block--grey d-flex align-c">
+                        <img class="offers-block__icon" src="images/icon-money.svg" alt="">
+                    <p>
+                        Накапливайте балы и
+                        получайте скидки и спец.
+                        предложения при покупке
+                        на сайте или в наших
+                        магазинах!
+                    </p>
+                </div>
+                <div class="offers-block offers-block--violet d-flex align-c">
+                        <img class="offers-block__icon" src="images/icon-phone.svg" alt="">
+                    <p class="white-text">
+                        Обеспечиваем
+                        постагарнитийное сервисное
+                        обслуживание и имеем
+                        собственную гитарную
+                        мастерскую
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="photo-celebrities">
+           <img class="img" src="images/main_photo/Шевчук.jpg">
+           <img class="img" src="images/main_photo/Розенбаум.jpg">
+           <img class="img" src="images/main_photo/Расторгуев.jpg">
+           <img class="img" src="images/main_photo/Цой.jpg">
+          
+          
+        </section>
+            <footer class="footer d-flex d-flex align-c just-c-c">
+                    <div class="footer__item">
+                        <img src="images/newLogo.svg" alt="logo">
+                    </div>
+                    <div class="footer__item">
+                        <ul>
+                            <li>
+                            <a href="">О компании</a>  
+                            </li>
+                            <li>
+                            <a href="Present-cards.html">Подарочные карты</a>  
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__item">
+                        <ul>
+                            <li>
+                                <a href="">Способы оплаты</a> 
+                            </li>
+                            <li>
+                                <a href="">Доставка по России</a> 
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__item">
+                        <ul>
+                            <li>
+                                <a href="">Условия возврата и обмена</a> 
+                            </li>
+                            <li>
+                                <a href="">Гитарная мастерская</a> 
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__item">
+                        <p>««PlayGuitar»» в соц. сетях</p>
+                        <div class="messangers-icon d-flex just-c-c">
+                            <a href=""><img src="images/telegram-icon.png" alt=""></a>
+                            <a href=""><img src="images/ok-icon.png" alt=""></a>
+                            <a href=""><img src="images/vk-icon.png" alt=""></a>
+                        </div>
+                    </div>
+            </footer>
+        <script src="js/slider.js"></script> 
+    </div>     
+</body>
+</html>
